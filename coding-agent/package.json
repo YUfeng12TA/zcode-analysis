@@ -1,0 +1,21 @@
+{
+  "name": "desk-coder",
+  "productName": "DeskCoder",
+  "version": "0.1.0",
+  "description": "桌面 AI 编程助手（Electron）。架构模式参考 ZCode Desktop 逆向分析文档的自研实现，不包含 ZCode 任何代码。",
+  "main": "main/index.js",
+  "scripts": {
+    "start": "electron .",
+    "smoke": "electron . --smoke-test",
+    "test:agent": "node test/agent-smoke.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^31.7.0"
+  },
+  "dependencies": {
+    "highlight.js": "^11.10.0",
+    "marked": "^12.0.2"
+  }
+}
